@@ -37,7 +37,7 @@ Here's an example of a Dockerfile:
 
 ```Dockerfile
 # Use the node image as the base image
-FROM node
+FROM node:25.6.0-bookworm
 
 # Initialize an env var for this image
 # that has a default value of "fun"
